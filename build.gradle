@@ -13,10 +13,10 @@ buildscript {
     }
 }
 
-//allprojects {
-    //group = 'project-name'
-    //version = '0.1'
-//}
+allprojects {
+    group = 'project-name'
+    version = '0.1'
+}
 
 apply from: file('gradle/license.gradle')
 
