@@ -1,0 +1,4 @@
+rootProject.name = 'project-name'
+
+include 'common'
+include 'project-name-api', 'project-name-impl'

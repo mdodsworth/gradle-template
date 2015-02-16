@@ -1,0 +1,11 @@
+dependencies {
+    compile "org.apache.logging.log4j:log4j-api:latest.integration"
+
+    runtime "org.apache.logging.log4j:log4j-core:latest.integration"
+    runtime "org.apache.logging.log4j:log4j-1.2-api:latest.integration"
+    runtime "org.apache.logging.log4j:log4j-slf4j-impl:latest.integration"
+    runtime "org.apache.logging.log4j:log4j-jcl:latest.integration"
+    runtime "org.slf4j:jul-to-slf4j:latest.integration"
+
+    testCompile "junit:junit:latest.release"
+}
